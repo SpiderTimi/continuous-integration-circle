@@ -2,7 +2,7 @@ version: 2.1
 executors:
   ci-executor:
     docker:
-      - image: REPLACE-ME-WITH-DOCKER-IMAGE
+      - image: https://avatars1.githubusercontent.com/u/57826604?s=400&v=4
 jobs:
   build:
     executor: ci-executor
